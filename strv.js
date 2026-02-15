@@ -180,6 +180,7 @@ class FastHeap {
     this.size = 0;
   }
 }
+window.FastHeap  = FastHeap 
 class FastAStar {
   static init(maxNodes) {
     FastAStar.g = new Float32Array(maxNodes);
