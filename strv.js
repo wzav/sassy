@@ -92,7 +92,7 @@ class Keyboard {
     return this.keys[this.BOTTOM] || this.keys[this.ARROW_BOTTOM] || this.keys[this.S];
   }
 }
-
+window.Keyboard = Keyboard
 class FastGrid {
   constructor(wrlW, wrlH, cellSize) {
     this.cellSize = cellSize;
@@ -301,3 +301,4 @@ class FastAStar {
     return len;
   }
 }
+window.FastGrid = FastGrid
