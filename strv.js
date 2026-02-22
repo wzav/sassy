@@ -304,7 +304,7 @@ class FastAStar {
 }
 window.FastGrid = FastGrid
 
-Utils = {
+const Utils = {
 
 	open_in_new_tab : function (url) {
 		var win = window.open (url, '_blank');
